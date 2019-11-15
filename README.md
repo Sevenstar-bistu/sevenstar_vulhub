@@ -4,3 +4,4 @@
 | ---- | ------ | ------ | ------ |
 | 00001 | PHPCMS 9.6 getshell | https://www.seebug.org/vuldb/ssvid-92930 | 是 |
 | 00002 | Apache Flink 任意Jar包上传导致远程代码执行漏洞 | http://www.liuhaihua.cn/archives/633660.html | 是 |
+| 00003 | Backend后台sql注入与反序列化 | https://www.seebug.org/vuldb/ssvid-98100 | 否 |

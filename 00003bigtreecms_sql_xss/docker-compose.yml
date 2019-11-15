@@ -1,0 +1,12 @@
+version: '2'
+services:
+ web:
+   image: fairyming/bigtree_cms_xss_sql
+   depends_on:
+    - mysql
+   ports:
+    - "8080:80"
+ mysql:
+   image: mysql:5
+   environment:
+    - MYSQL_ROOT_PASSWORD=root
